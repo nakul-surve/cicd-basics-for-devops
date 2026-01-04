@@ -27,3 +27,8 @@ Code → GitHub → CI tests → Build → Deploy
 
 ## Learning Goal
 Understand the CI/CD mindset before building pipelines.
+
+## Connection with My Learning
+- Git triggers CI pipelines
+- Docker builds application images
+- AWS hosts deployed services
