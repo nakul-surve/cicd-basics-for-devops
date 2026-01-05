@@ -32,3 +32,6 @@ Understand the CI/CD mindset before building pipelines.
 - Git triggers CI pipelines
 - Docker builds application images
 - AWS hosts deployed services
+
+## GitHub Actions
+This repository includes a basic CI workflow that runs automatically on every push.
