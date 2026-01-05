@@ -1,0 +1,17 @@
+name: CI Basics
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Simple CI test
+        run: echo "CI is working"
